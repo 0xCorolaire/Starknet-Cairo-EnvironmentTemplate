@@ -154,3 +154,31 @@ Exists 3 solutions : the CLI we’ve seen right before,
 
 - **nile** (python) https://github.com/OpenZeppelin/nile → Very easy (best in my opinion)
 - **hardhat** (js)
+
+## 7. Create your first Project with nile
+
+```bash
+mkdir myproject
+cd myproject
+nile init
+...
+✨  Cairo successfully installed!
+...
+✅ Dependencies successfully installed
+🗄  Creating project directory tree
+⛵️ Nile project ready! Try running:
+```
+
+- Compile a Smart contract using Nile
+
+```bash
+nile compile # compiles all contracts under contracts/
+nile compile --directory my_contracts # compiles all contracts under my_contracts/
+nile compile contracts/MyContract.cairo # compiles single contract
+```
+
+- Deploying a Smart Contract using Nile
+
+```bash
+nile deploy contract --alias my_contract
+```
