@@ -1,5 +1,7 @@
 # Starknet-Cairo-EnvironmentTemplate
 Setup your Cairo Environment for Smart Contract development on Starknet
+Follow the steps to initialize your Cairo project environment
+
 ----
 
 ### 1. **Creating an account contract & Organizing**
